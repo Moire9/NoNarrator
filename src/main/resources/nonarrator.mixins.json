@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cx.moire.nonarrator",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "cx.moire.nonarrator.NarratorDisabler",
+  "client": [ "NarratorSelector" ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

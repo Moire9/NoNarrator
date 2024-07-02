@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "nonarrator",
+	"version": "1.0",
+	"name": "NoNarrator",
+	"description": "Entirely removes the narrator.",
+	"authors": ["Moir\u00e9"],
+	"contact": {
+		"repo": "https://github.com/Moire9/NoNarrator"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"mixins": [ "nonarrator.mixins.json" ],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": ">=17"
+	}
+}
